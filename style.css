@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+}
+.container{
+	max-width: 80vw;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+	display: flex;
+	height: 5vh;
+	
+}
+
+.navbar li{
+	list-style: none;
+	margin: 0 12px;
+}
+
+.topleft{
+	width: 50%;
+	height: 50vh;
+	
+}
+
+.topright {
+	width: 50%;
+	height: 50vh;
+	background-size: cover;
+}
+
+.section1{
+	max-height: 100vh;
+}
+
+.section1 .h1{
+	font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+
+.dumble{
+    width: 13vw;
+}
+
+.section2{
+padding-left: 63px;
+padding-right: 63px;
+}
+
+.section2 .h1{
+	font-size: 2rem;
+}
+
+.box ul{
+	list-style-type: none;
+}
+
+.box h2{
+	padding: 10px 0px;
+}
+
+.box ul li{
+	margin: 10px 0px;
+}
+
+.highlight{
+	font-weight: bold;
+}
+
+footer{
+	padding: 23px;
+	
+}
